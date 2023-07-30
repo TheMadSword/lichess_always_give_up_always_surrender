@@ -1,0 +1,32 @@
+.question .aguas {
+  text-transform: uppercase;
+  transition: all 150ms;
+  border: none;
+  outline: none;
+  color: #bababa;
+}
+
+.question .separation {
+  flex: 0.5;
+}
+
+.question .aguas:hover {
+  background: #537c23;
+  color: #fff;
+}
+
+.question .aguas.confirm, .question .aguas.confirm:hover {
+  top: -3px;
+  border-radius: 8px;
+  color: #fff;
+  text-decoration: none;
+  background: #d64f00;
+  border-bottom: 5px solid #963700;
+}
+
+.question .aguas.confirm:active {
+  transform: translate(0px, 5px);
+  border-bottom-width: 1px;
+  text-shadow: 0 0 #963700;
+  filter: brightness(1);
+}
